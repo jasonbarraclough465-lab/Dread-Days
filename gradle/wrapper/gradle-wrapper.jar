@@ -1,16 +1,1 @@
-/*
- * Copyright 2016 the original author or authors.
- */
-package org.gradle.wrapper;
-
-import java.io.*;
-import java.net.*;
-import java.nio.channels.*;
-import java.nio.file.*;
-import java.util.*;
-
-public class GradleWrapperMain {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Gradle wrapper initialized. Ready to build...");
-    }
-}
+UEsDBBQACAAIAO2RpVYAAAAAAAAAAAAAAAAJAAAATUVUQS1JTkYvUEsDBAoAAAAAAO2RpVYAAAAAAAAAAAAAAAALAAAATUVUQS1JTkYvTUFORVNULk1G803My8xLSSyJVLIyS8wpTlWqBAAUWQEUUEsHCAAAAAADAAAAAwAAAFBLAwQKAAAAAADtkKVWAAAAAAAAAAAAAAAAFQAAAE9SRy9ncmFkbGUvd3JhcHBlci9QSwECLQAUAAgACADtkKVWAAAAAAMAAADDAAAACQAAAAAAAAAAAKSBAAAATUVUQS1JTkYvUEsBAi0AFQAIAAgA7ZClVgAAAAADAAAAAwAAABUAAAAAAAAAAAChgQgAAABNRVRBLUlORi9NQU5JRkVTVC5NRlBLBQYAAAAAAw==
