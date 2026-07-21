@@ -32,7 +32,7 @@ set APP_HOME=%DIRNAME%
 for /f "delims=" %%a in ('cd /d "%APP_HOME%" ^&^& cd') do set APP_HOME=%%a
 
 @rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-set DEFAULT_JVM_OPTS=" -Xmx64m" "-Xms64m"
+set DEFAULT_JVM_OPTS=-Xmx64m -Xms64m
 
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
@@ -77,8 +77,5 @@ exit /b 1
 :end
 endlocal
 
-if "%ERRORLEVEL%"=="0" goto mainEnd
-
-:mainEnd
-if "%ERRORLEVEL%"=="" set ERRORLEVEL=0
+if "%ERRORLEVEL%"==" " set ERRORLEVEL=0
 exit /b %ERRORLEVEL%
